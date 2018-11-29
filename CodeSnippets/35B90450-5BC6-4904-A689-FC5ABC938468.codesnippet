@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@protocol</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>Preprocessor</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@class ZCHotelDetailSectionHeaderView;
+@protocol ZCHotelDetailSectionHeaderViewDelegate &lt;NSObject&gt;
+@optional
+- (void)HotelDetailSectionHeaderViewClicked:(ZCHotelDetailSectionHeaderView *)sectionHeaderView;
+@property(nonatomic,weak)id &lt;ZCHotelDetailSectionHeaderViewDelegate&gt; delegate;
+
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>35B90450-5BC6-4904-A689-FC5ABC938468</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>制定协议</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

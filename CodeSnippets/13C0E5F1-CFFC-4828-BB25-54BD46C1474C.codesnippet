@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>makecon</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#name#&gt;.snp.makeConstraints { (make) in
+            make.top.equalToSuperview().offset(&lt;#T##amount: ConstraintOffsetTarget##ConstraintOffsetTarget#&gt;)
+            make.top.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;).offset(&lt;#T##amount: ConstraintOffsetTarget##ConstraintOffsetTarget#&gt;)
+            make.left.equalToSuperview().offset(&lt;#T##amount: ConstraintOffsetTarget##ConstraintOffsetTarget#&gt;)
+            make.left.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;).offset(&lt;#T##amount: ConstraintOffsetTarget##ConstraintOffsetTarget#&gt;)make.width.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;)
+            make.right.equalToSuperview().offset(&lt;#T##amount: ConstraintOffsetTarget##ConstraintOffsetTarget#&gt;)
+            make.right.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;).offset(&lt;#T##amount: ConstraintOffsetTarget##ConstraintOffsetTarget#&gt;)
+            make.bottom.equalToSuperview().offset(&lt;#T##amount: ConstraintOffsetTarget##ConstraintOffsetTarget#&gt;)
+            make.bottom.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;).offset(&lt;#T##amount: ConstraintOffsetTarget##ConstraintOffsetTarget#&gt;)
+            make.edges.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;).inset(UIEdgeInsetsMake(&lt;#T##top: CGFloat##CGFloat#&gt;, &lt;#T##left: CGFloat##CGFloat#&gt;, &lt;#T##bottom: CGFloat##CGFloat#&gt;, &lt;#T##right: CGFloat##CGFloat#&gt;))
+    
+            make.edges.equalToSuperview().inset(UIEdgeInsetsMake(&lt;#T##top: CGFloat##CGFloat#&gt;, &lt;#T##left: CGFloat##CGFloat#&gt;, &lt;#T##bottom: CGFloat##CGFloat#&gt;, &lt;#T##right: CGFloat##CGFloat#&gt;))make.center.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;)
+            make.centerX.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;)
+            make.size.equalTo(CGSize(width: &lt;#T##Int#&gt;, height: &lt;#T##Int#&gt;))
+            make.height.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;)
+            make.width.height.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;)
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>13C0E5F1-CFFC-4828-BB25-54BD46C1474C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>添加约束</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

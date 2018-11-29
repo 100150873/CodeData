@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@uiimageview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImageView *&lt;#name#&gt; = [UIImageView imageViewWithImageName:&lt;#name#&gt;];
+[self addSubview:&lt;#name#&gt;];
+[&lt;#name#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+    make.centerX.equalTo(self);
+    make.top.equalTo(self).offset(&lt;#name#&gt;);
+    make.size.equalTo([NSValue valueWithCGSize:CGSizeMake(&lt;#name#&gt;, &lt;#name#&gt;)]);
+}];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B501AC4D-814E-45A9-9798-D7E54AA53D25</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

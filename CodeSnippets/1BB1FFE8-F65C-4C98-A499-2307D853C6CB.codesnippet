@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mas_make</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[&lt;#class#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+    make.centerX.equalTo(&lt;#class#&gt;).offset(&lt;#margin#&gt;);
+    make.centerY.equalTo(&lt;#class#&gt;).offset(&lt;#margin#&gt;);
+        make.top.equalTo(&lt;#class#&gt;).offset(&lt;#margin#&gt;);
+    make.bottom.equalTo(&lt;#class#&gt;).offset(&lt;#margin#&gt;);
+        make.left.equalTo(&lt;#margin#&gt;).offset(&lt;#margin#&gt;);
+        make.right.equalTo(&lt;#class#&gt;).offset(&lt;#margin#&gt;);
+    make.size.equalTo([NSValue valueWithCGSize:CGSizeMake(&lt;#width#&gt;, &lt;#height#&gt;)]);
+        make.height.equalTo(&lt;#margin#&gt;);
+        make.width.equalTo(&lt;#margin#&gt;);
+    make.height.mas_equalTo(&lt;#margin#&gt;);
+    make.width.mas_equalTo(&lt;#margin#&gt;);
+    make.edges.equalTo(&lt;#class#&gt;).insets(UIEdgeInsetsMake(&lt;#T#&gt;,&lt;#L#&gt;,&lt;#B#&gt;,&lt;#R#&gt;));
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1BB1FFE8-F65C-4C98-A499-2307D853C6CB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>添加约束</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
