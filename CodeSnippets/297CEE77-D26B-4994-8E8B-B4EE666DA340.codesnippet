@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSMutableDictionary *dicparam = [[NSMutableDictionary alloc] init];
+	<string>NSMutableDictionary *dicParam = [[NSMutableDictionary alloc] init];
     dicParam[@""] = @"";</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>297CEE77-D26B-4994-8E8B-B4EE666DA340</string>

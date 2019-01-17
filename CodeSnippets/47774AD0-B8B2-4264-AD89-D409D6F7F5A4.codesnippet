@@ -2,20 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic , assign) &lt;#type#&gt;           &lt;#name#&gt;;</string>
+	<string>- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    
+    self = [super initWithNibName:NSStringFromClass([self.superclass class]) bundle:nibBundleOrNil];
+    
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>840E5187-D7E2-49C5-AECC-0DE47FF26158</string>
+	<string>47774AD0-B8B2-4264-AD89-D409D6F7F5A4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>assign类型</string>
+	<string>xib继承</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
