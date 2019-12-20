@@ -1,0 +1,139 @@
+// 通用
+"confirm.ok.title" = "确定";
+"confirm.cancel.title" = "取消";
+
+// 登录
+"sfim.auth.login.login_error_tips" = "登录失败";
+"sfim.auth.login.login_button_title" = "登录";
+"sfim.auth.login.phone_placeholder" = "输入手机号";
+"sfim.auth.login.password_placeholder" = "输入密码";
+"sfim.auth.login.image_placeholder" = "请输入图形验证码";
+"sfim.auth.login.empty_tips" = "请填写完整信息";
+"sfim.auth.login.forget_button_title" = "忘记密码?";
+"sfim.auth.login.register_button_title" = "注册";
+"sfim.auth.login.copyright" = "© %@ sf-express.com Inc. All rights reserved";
+"sfim.auth.login.phone_error"="输入的手机号码格式有误,请确认后重试.";
+"sfim.auth.login.no_register"="该手机号未注册丰声,是否注册帐号";
+"sfim.auth.login.go_register"="去注册";
+"sfim.auth.login.phone_login"="手机号登录";
+"sfim.auth.login.china"="中国";
+"sfim.auth.login.country_title"="国家/地区";
+"sfim.auth.login.password_placeholder"="请输入密码";
+"sfim.auth.login.code_login_title"="验证码登录";
+"sfim.auth.login.find_password"="密码管理";
+"sfim.auth.login.no_input"="账户密码为空";
+"sfim.auth.login.accout_login"="工号密码登录";
+"sfim.auth.login.account_placeholder"="请输入工号";
+"sfim.auth.login.save_pwd"="记住密码";
+
+//验证码输入
+"sfim.auth.codeInput.alert_title"="收不到验证码";
+"sfim.auth.codeInput.alert_message"="1. 请确认手机号是否为当前使用的手机号;\n2. 请检查短信是否被安全软件拦截; \n3. 由于运营商关系，短信可能会延迟到达. ";
+"sfim.auth.codeInput.alert_IKnow"="我知道了";
+"sfim.auth.codeInput.resend"="重新发送";
+"sfim.auth.codeInput.resend_button_title"="%.0f秒后重新发送";
+"sfim.auth.codeInput.send_ok"="获取验证码成功";
+"sfim.auth.codeInput.send_fail"="获取验证码失败";
+"sfim.auth.codeInput.title"="验证码已发送至手机";
+"sfim.auth.codeInput.no_sms_code"="收不到验证码?";
+"sfim.auth.codeInput.send_60"="60秒后重新发送";
+
+//验证码登录
+"sfim.auth.codeLogin.title"="短信验证码登录";
+"sfim.auth.codeLogin.data_error"="数据错误";
+"sfim.auth.codeLogin.get_SMS_code"="获取验证码";
+
+//设置密码
+"sfim.auth.setPWD.title"="设置登录密码";
+"sfim.auth.setPWD.format_alert"="密码应由6-16位数字和字母组成";
+"sfim.auth.setPWD.set_ok"="重置成功";
+"sfim.auth.setPWD.set_fail"="重置失败";
+"sfim.auth.setPWD.destription"="登录密码用于手机丰声与电脑丰声登录";
+"sfim.auth.setPWD.placeholder"="请输入6-16位数字和字母";
+
+
+// 忘记密码
+"sfim.auth.forget.title" = "忘记密码";
+"sfim.auth.forget.phone_placeholder" = "请输入手机号码";
+"sfim.auth.forget.imagecode_placeholder" = "请输入图形验证码";
+"sfim.auth.forget.smscode_placeholder" = "请输入验证码";
+
+// 修改密码
+"sfim.auth.change.old.password.tip" = "请输入原密码";
+
+// 地区码
+"sfim.auth.countrycode.title" = "选择国家和地区";
+"sfim.auth.countrycode.hot_title"="热门国家和地区";
+"sfim.auth.countrycode.search"="搜索";
+
+// 注册
+"sfim.auth.register.title" = "新用户注册";
+"sfim.auth.register.next_btn_title" = "下一步";
+"sfim.auth.register.region_code_title" = "国家/区域";
+"sfim.auth.register.agreement_title" = "我已阅读并同意";
+"sfim.auth.register.agreement_btn_title" = "《服务协议》";
+"sfim.auth.register.unavailable_phoneNumber" = "手机号码不正确";
+"sfim.auth.register.unknow_region_name" = "未知";
+"sfim.auth.register.agreement_page_title" = "服务协议";
+"sfim.auth.register.agreement_page_agree" = "同意";
+"sfim.auth.register.agreement_page_reject" = "拒绝";
+
+// 创建公司选择公司配置
+"sfim.auth.create_company.config_scale_title" = "选择企业规模";
+"sfim.auth.create_company.config_trade_title" = "选择行业类型";
+
+// 创建公司
+"sfim.auth.create_company.title" = "您当前没有加入任何团队，请创建团队";
+"sfim.auth.create_company.create_btn_title" = "创建团队";
+"sfim.auth.create_company.name_placeholder_title" = "公司名称";
+"sfim.auth.create_company.name_input_title" = "填写";
+"sfim.auth.create_company.trade_title" = "行业类型";
+"sfim.auth.create_company.scale_title" = "企业规模";
+"sfim.auth.create_company.select_title" = "选择";
+
+// 设置名称
+"sfim.auth.setting_cpmpany_name.title" = "填写公司名称";
+"sfim.auth.setting_cpmpany_name.cancel_btn_title" = "取消";
+"sfim.auth.setting_cpmpany_name.done_btn_title" = "完成";
+"sfim.auth.setting_cpmpany_name.giveup_notice_title" = "放弃";
+"sfim.auth.setting_cpmpany_name.notice_title" = "提示";
+"sfim.auth.setting_cpmpany_name.giveup_title" = "放弃修改吗？";
+"sfim.auth.setting_cpmpany_name.pwd_format_title" = "公司名称应由1~20个中文、数字和字母组成";
+"sfim.auth.setting_cpmpany_name.input_placeholder_title" = "公司名称";
+
+// 选择公司
+"sfim.auth.select_company.title" = "选择组织";
+
+// 更换手机号
+"sfim.change_mobile" = "更换手机号";
+"sfim.change_mobile.check.warning" = "该号码已注册使用丰声，更换后老帐号将被无法再使用，是否确定更换？";
+"sfim.change_mobile.success" = "修改成功";
+"sfim.change_mobile.same" = "更换的手机号不能与当前手机号一致";
+"sfim.change_mobile.current" = "当前用户手机号";
+"sfim.change_mobile.input.tip" = "请输入新手机号";
+"sfim.change_mobile.error" = "该号码已注册使用丰声且为%@创建人，如需绑定，请先在企业丰声管理中心转移创建人身份或解散企业";
+"sfim.change_mobile.errors" = "该号码已注册使用丰声且为%@等公司创建人，如需绑定，请先在企业丰声管理中心转移创建人身份或解散企业";
+
+// 修改密码
+"sfim.change_password" = "修改登录密码";
+"sfim.change_password.set.newPassword" = "设置新密码";
+
+// 扫码登录
+"sfim.qrcode.admin_login_title" = "丰声管理员后台登录确认";
+"sfim.qrcode.creator_transfer_title" = "你正在转让创建人，确定操作？";
+"sfim.qrcode.current_comopany_pre_title" = "当前企业：";
+"sfim.qrcode.cancel_login_title" = "取消登录";
+"sfim.qrcode.cancel_transfer_title" = "取消";
+"sfim.qrcode.login_btn_title" = "登录";
+"sfim.qrcode.transfer_btn_title" = "确定";
+"sfim.qrcode.error_vc_title" = "提示";
+"sfim.qrcode.error_not_admin_title" = "当前帐号不是企业管理员";
+"sfim.qrcode.error_use_admin_login_title" = "请用企业管理员帐号登录";
+"sfim.qrcode.error_qrcode_timeout_title" = "二维码已过期";
+"sfim.qrcode.error_refresh_qrcode_title" = "请刷新二维码尝试";
+"sfim.qrcode.error_transfer_failed_title" = "转让操作失败";
+
+// 设备验证
+"sfim.deviceverify.call_phone_tips" = "暂未获取到手机号码，您可拨打%@进行咨询";
+"sfim.deviceverify.dial_immediately" = "立即拨打";
+"sfim.deviceverify.new_device_tips" = "你正在新的设备登录丰声，为了你的账户安全，需要使用短信验证码进行安全确认";
