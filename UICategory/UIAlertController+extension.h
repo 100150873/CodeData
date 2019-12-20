@@ -36,4 +36,7 @@
 - (void)addMessageAttributedStringWithFontSize:(UIFont *_Nullable)font titleColor:(UIColor *_Nullable)titleColor;
 
 - (void)addCancelActionAttributedStringWithFontSize:(UIFont *)font titleColor:(UIColor *)titleColor;
+
+- (UILabel *)sfim_messageLabel;
+
 @end

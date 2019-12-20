@@ -67,4 +67,24 @@
 
 }
 
+- (UILabel *)sfim_messageLabel {
+    UIView *subView1 = [self.view.subviews sfim_safeObjectAtIndex:0];
+    UIView *subView2 = [subView1.subviews sfim_safeObjectAtIndex:0];
+    UIView *subView3 = [subView2.subviews sfim_safeObjectAtIndex:0];
+    UIView *subView4 = [subView3.subviews sfim_safeObjectAtIndex:0];
+    //这一层一般是放title 和 message label的view
+    UIView *subView5 = [subView4.subviews sfim_safeObjectAtIndex:0];
+    NSArray *subviewArray = subView5.subviews;
+    //取出所有label (iOS10及以下第一个和第二个是label,ios12是第二个第三个是label,所以直接遍历取出所有label)
+    NSMutableArray *labelArray = [NSMutableArray array];
+    [subviewArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([obj isKindOfClass:UILabel.class]) {
+            [labelArray sfim_safeAddObject:obj];
+        }
+    }];
+    //取出消息展示label
+    UILabel *messageLabel = [labelArray sfim_safeObjectAtIndex:1];
+    return messageLabel;
+}
+
 @end
