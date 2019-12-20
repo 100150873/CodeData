@@ -37,6 +37,11 @@
 
 - (void)addCancelActionAttributedStringWithFontSize:(UIFont *)font titleColor:(UIColor *)titleColor;
 
+/**
+ 获取显示的msgLabel
+
+ @return <#return value description#>
+ */
 - (UILabel *)sfim_messageLabel;
 
 @end
