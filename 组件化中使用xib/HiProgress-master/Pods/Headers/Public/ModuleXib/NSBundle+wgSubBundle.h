@@ -1,0 +1,1 @@
+../../../ModuleXib/ModuleXib/Classes/NSBundle+wgSubBundle.h

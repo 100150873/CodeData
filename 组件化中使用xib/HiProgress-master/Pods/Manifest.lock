@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ModuleXib (0.1.4)
+  - PodName02 (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ModuleXib
+  - PodName02
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+  https://github.com/gzc453645620/ModuleXib.git:
+    - ModuleXib
+  https://github.com/gzc453645620/PodName02.git:
+    - PodName02
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ModuleXib: 76f22f39f4b397ea5d1af6e773abbfc946698bd9
+  PodName02: 8497b70c0e2e25c909840d1e90998582df471869
+
+PODFILE CHECKSUM: d81709598caa83f30ba75124100a892e94d855c5
+
+COCOAPODS: 1.8.4
