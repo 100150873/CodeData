@@ -1,14 +1,14 @@
 //
-//  WMDragView.m
-//  WMDragView
+//  SFIMDragView.m
+//  SFIMDragView
 //
-//  Created by zhengwenming on 2016/12/16.
+//  Created by zhengwenming on 2020/03/18.
 //
 //
 
-#import "WMDragView.h"
+#import "SFIMDragView.h"
 
-@interface WMDragView ()<UIGestureRecognizerDelegate>
+@interface SFIMDragView ()<UIGestureRecognizerDelegate>
 @property (nonatomic,strong) UIView *contentViewForDrag;
 
 /**
@@ -20,7 +20,7 @@
 @property (nonatomic,assign) CGFloat previousScale;
 @end
 
-@implementation WMDragView
+@implementation SFIMDragView
 -(UIImageView *)imageView{
     if (_imageView==nil) {
         _imageView = [[UIImageView alloc]init];
@@ -120,15 +120,15 @@
             float dx;
             float dy;
             switch (self.dragDirection) {
-                case WMDragDirectionAny:
+                case SFIMDragDirectionAny:
                     dx = point.x - self.startPoint.x;
                     dy = point.y - self.startPoint.y;
                     break;
-                case WMDragDirectionHorizontal:
+                case SFIMDragDirectionHorizontal:
                     dx = point.x - self.startPoint.x;
                     dy = 0;
                     break;
-                case WMDragDirectionVertical:
+                case SFIMDragDirectionVertical:
                     dx = 0;
                     dy = point.y - self.startPoint.y;
                     break;

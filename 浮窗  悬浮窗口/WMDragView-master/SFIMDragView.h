@@ -1,8 +1,8 @@
 //
-//  WMDragView.h
-//  WMDragView
+//  SFIMDragView.h
+//  SFIMDragView
 //
-//  Created by zhengwenming on 2016/12/16.
+//  Created by gzc on 2020/03/18.
 //
 //
 
@@ -10,13 +10,13 @@
 
 
 // 拖曳view的方向
-typedef NS_ENUM(NSInteger, WMDragDirection) {
-    WMDragDirectionAny,          /**< 任意方向 */
-    WMDragDirectionHorizontal,   /**< 水平方向 */
-    WMDragDirectionVertical,     /**< 垂直方向 */
+typedef NS_ENUM(NSInteger, SFIMDragDirection) {
+    SFIMDragDirectionAny,          /**< 任意方向 */
+    SFIMDragDirectionHorizontal,   /**< 水平方向 */
+    SFIMDragDirectionVertical,     /**< 垂直方向 */
 };
 
-@interface WMDragView : UIView
+@interface SFIMDragView : UIView
 /**
  是不是能拖曳，默认为YES
  YES，能拖曳
@@ -36,7 +36,7 @@ typedef NS_ENUM(NSInteger, WMDragDirection) {
 /**
  拖曳的方向，默认为any，任意方向
  */
-@property (nonatomic,assign) WMDragDirection dragDirection;
+@property (nonatomic,assign) SFIMDragDirection dragDirection;
 
 /**
  contentView内部懒加载的一个UIImageView
@@ -59,19 +59,19 @@ typedef NS_ENUM(NSInteger, WMDragDirection) {
 /**
  点击的回调block
  */
-@property (nonatomic,copy) void(^clickDragViewBlock)(WMDragView *dragView);
+@property (nonatomic,copy) void(^clickDragViewBlock)(SFIMDragView *dragView);
 /**
  开始拖动的回调block
  */
-@property (nonatomic,copy) void(^beginDragBlock)(WMDragView *dragView);
+@property (nonatomic,copy) void(^beginDragBlock)(SFIMDragView *dragView);
 /**
  拖动中的回调block
  */
-@property (nonatomic,copy) void(^duringDragBlock)(WMDragView *dragView);
+@property (nonatomic,copy) void(^duringDragBlock)(SFIMDragView *dragView);
 /**
  结束拖动的回调block
  */
-@property (nonatomic,copy) void(^endDragBlock)(WMDragView *dragView);
+@property (nonatomic,copy) void(^endDragBlock)(SFIMDragView *dragView);
 @end
 
 
